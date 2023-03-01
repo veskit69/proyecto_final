@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; ;
+}
+
+.hero{
+    background-color: black;
+}
+.hero img{
+    width: 15%;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.datos{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.datos h2{
+    text-decoration: underline solid rgb(68, 68, 68);
+    text-align: left;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    letter-spacing: 2;
+    color: #d8c860;
+    background-color: rgb(41, 40, 40);
+    margin-bottom: 20px;
+}
+
+.datos a {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: orangered;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'ionicons';
+    font-size: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.datos a::before {
+    content: '\f376';
+    display: block;
+    margin: 13px 0;
+    transition: all ease-in-out .3s;
+}
+
+.datos a:hover::before {
+margin-top: -44px;
+}
+
+.datos a::after {
+    content: '\f376';
+}
+
+/*Agregando los demas iconos*/
+
+.datos a.dos{
+    background:yellowgreen;
+}
+.datos a.dos::before{
+    content: '\f2d1';
+}
+.datos a.dos::after{
+    content: '\f2d1';
+}
+
+.datos a.tres{
+    background:purple;
+}
+.datos a.tres::before{
+    content:'\f384';
+}
+.datos a.tres::after{
+    content: '\f384';
+}
+
+.datos a.cuatro{
+    background:palevioletred;
+}
+.datos a.cuatro::before {
+    content:'\f37c';
+}
+
+.datos a.cuatro::after {
+    content: '\f37c';
+}
+
+.datos a.cinco{
+    background:lightblue;
+}
+
+.datos a.cinco::before {
+    content:'\f2d2';
+}
+
+.datos a.cinco::after {
+    content: '\f2d2';
+}
+
+.datos h3{
+    font-size: 25px;
+    align-content: center;
+    margin-left: 110px;
+}
+
+.container{
+    align-content: center;
+    display: inline-block;
+    width: 90%;
+    padding: 30px 0;
+    margin: 60px 60px;
+
+}
+.laboral{
+width: 46%;
+float: left;
+
+}
+.laboral h2{
+    text-decoration: underline solid rgb(68, 68, 68);
+    text-align: left;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    letter-spacing: 2;
+    color: #d8c860;
+    background-color: rgb(41, 40, 40);
+}
+.trabajos {
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    border-right: 2px solid black;
+}
+
+
+.complementos{
+    width: 46%;
+    float:right
+}
+.complementos h2 {
+    text-decoration: underline solid rgb(68, 68, 68);
+    text-align: left;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    letter-spacing: 2;
+    color: #d8c860;
+    background-color: rgb(41, 40, 40);
+}
+
+.complementos ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.images{
+    margin-top: 150px;
+    align-content: center;
+    margin-left: 300px;
+    width: 30%;
+}
+
+/* footer */
+footer{
+    color: #d8c860;
+    background-color: rgb(41, 40, 40);
+    
+}
+footer ul{
+    list-style: none;
+}
+
+.social-networks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-networks h3{
+    margin-top: 25px;
+}
+
+.social-networks li {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 2rem;
+}
